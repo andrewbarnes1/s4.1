@@ -18,6 +18,7 @@ int main(void)
       c = pc.getc();
       pc.printf("(%c) Enter a number:", c);
       pc.scanf("%d", &n);
+      pc.printf("%d", n);
       pc.printf("Countdown ");
       for( q=n ; q>0 ; q-=1) {
         pc.printf("%d. ", q);
